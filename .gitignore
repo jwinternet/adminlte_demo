@@ -1,7 +1,19 @@
-# Byte-compiled / optimized / DLL files
+# Custom
+/old
+
+# byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# other
+.DS_Store
+
+# javascript
+package-lock.json
+staticfiles/*
+!staticfiles/.gitkeep 
+.vscode/symbols.json
 
 # C extensions
 *.so
@@ -50,6 +62,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+*.pytest_cache
 
 # Translations
 *.mo
@@ -60,6 +73,8 @@ coverage.xml
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+*.db
+*.sqlite3
 
 # Flask stuff:
 instance/
